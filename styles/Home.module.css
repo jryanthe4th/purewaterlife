@@ -8,7 +8,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -28,21 +28,13 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 7rem;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Rajdhani', sans-serif; */
+  color: blue;
 }
 
 .title,
@@ -121,7 +113,7 @@
     border-color: #222;
   }
   .code {
-    background: #111;
+    /* background: #111; */
   }
   .logo img {
     filter: invert(1);
