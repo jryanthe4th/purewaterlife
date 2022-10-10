@@ -22,22 +22,22 @@ export default function Home() {
                 </p>
 
                 <div className={styles.grid}>
-                    <a href="https://nextjs.org/docs" className={styles.card}>
+                    <a href="" className={styles.card}>
                         <h2>Card 1 &rarr;</h2>
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                     </a>
 
-                    <a href="https://nextjs.org/learn" className={styles.card}>
+                    <a href="" className={styles.card}>
                         <h2>Card 2 &rarr;</h2>
                         <p>Learn about Next.js in an interactive</p>
                     </a>
 
-                    <a href="https://github.com/vercel/next.js/tree/canary/examples" className={styles.card}>
+                    <a href="" className={styles.card}>
                         <h2>Card 3 &rarr;</h2>
                         <p>Duis aute irure dolor in reprehenderit</p>
                     </a>
 
-                    <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" className={styles.card}>
+                    <a href="" className={styles.card}>
                         <h2>Card 4 &rarr;</h2>
                         <p>Excepteur sint occaecat cupidatat non proident</p>
                     </a>
@@ -45,7 +45,7 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}>
-                
+                <p>555-555-5555 | email@gmail.com</p>
             </footer>
         </div>
     )
