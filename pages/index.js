@@ -1,5 +1,7 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
+import Image from 'next/image'
+import homepageImage from '../public/lake1.jpg'
 
 export default function Home() {
     return (
@@ -14,10 +16,17 @@ export default function Home() {
                 <h1 className={styles.title}>
                     Pure Water Life
                 </h1>
+                <Image
+                    className='homepage-bg-img'
+                    src={homepageImage}
+                    alt="Homepage background image"
+                    // layout='responsive'
+                    layout='fill'
+                    // objectFit='cover'
+                    objectPosition='center'
+                />
 
-                <p className={styles.description}>
-                    Tellus rutrum tellus pellentesque eu
-                </p>
+                <p className={styles.description}>Tellus rutrum tellus pellentesque eu</p>
 
                 <div className={styles.grid}>
                     <a href="" className={styles.card}>
