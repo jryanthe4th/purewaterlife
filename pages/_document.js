@@ -14,6 +14,7 @@ class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet" />
                     {/* <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400&display=swap" rel="stylesheet" /> */}
+                    <link rel='icon' href='/icons8-water-32.png' />
                 </Head>
                 <body>
                     <Main />

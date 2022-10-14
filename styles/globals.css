@@ -17,7 +17,7 @@ body {
 
 .nav_item {
 	text-transform: capitalize;
-	color: black;
+	color: #666666;
 	text-decoration: none;
 	padding: 5px 10px;
 	border-bottom: 3px solid transparent;
@@ -25,16 +25,14 @@ body {
 }
 
 .nav_item_active {
-	/* color: #0070f3;
-	border-color: #0070f3; */
-  color: blue;
-	border-color: blue;
+  color: black;
+	border-color: black;
   z-index: 1;
 }
 
 .page {
 	font-size: 24px;
-	padding: 20px;
+	/* padding: 20px; */
 	text-align: center;
 	text-transform: capitalize;
   z-index: 1;
