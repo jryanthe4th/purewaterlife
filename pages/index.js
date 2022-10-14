@@ -18,8 +18,8 @@ export default function Home() {
                 </h1>
                 <Image
                     className='homepage-bg-img'
-                    src={homepageImage}
-                    alt="Homepage background image"
+                    src='/lake2.jpg'
+                    alt='Homepage background image'
                     // layout='responsive'
                     layout='fill'
                     // layout='intrinsic'
