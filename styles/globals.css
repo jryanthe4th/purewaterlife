@@ -4,7 +4,7 @@ body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav_container {
@@ -12,7 +12,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-  z-index: 1;
 }
 
 .nav_item {
@@ -20,22 +19,18 @@ body {
 	color: #666666;
 	text-decoration: none;
 	padding: 5px 10px;
-	border-bottom: 3px solid transparent;
-  z-index: 1;
+	border-bottom: 1px solid transparent;
 }
 
 .nav_item_active {
   color: black;
 	border-color: black;
-  z-index: 1;
 }
 
 .page {
 	font-size: 24px;
-	/* padding: 20px; */
 	text-align: center;
 	text-transform: capitalize;
-  z-index: 1;
 }
 
 a {
