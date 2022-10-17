@@ -2,8 +2,6 @@ import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
 
-import backgroundImage from '../public/lake2.jpg'
-
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -17,10 +15,11 @@ export default function Home() {
                     Pure Water Life
                 </h1>
                 <Image
-                    className="homepage-bg-img"
+                    className='homepage-bg-img'
                     // src="/lake2.jpg"
-                    src={backgroundImage}
-                    alt="Homepage background image"
+                    src='/lake2.jpg'
+                    href='/lake2.jpg'
+                    alt='Homepage background image'
                     // layout='responsive'
                     layout='fill'
                     // layout='intrinsic'
